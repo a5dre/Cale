@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://Assets/coin.png" type="Texture" id=1]
+[ext_resource path="res://Assets/cliff_blockCave_stone_SE.png" type="Texture" id=1]
 
 [node name="Coin" type="Area2D" groups=["persist"]]
 
