@@ -39,8 +39,8 @@ __meta__ = {
 }
 
 [node name="Crunch" type="Label" parent="."]
+anchor_left = -161.5
 anchor_right = 0.5
-margin_left = -161.5
 margin_top = 120.0
 margin_right = 153.5
 margin_bottom = 220.0
