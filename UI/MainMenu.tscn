@@ -1,27 +1,33 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://UI/MainMenu.gd" type="Script" id=1]
-[ext_resource path="res://UI/parallax-forest-front-trees.png" type="Texture" id=2]
-[ext_resource path="res://UI/BackWoods.gd" type="Script" id=3]
-[ext_resource path="res://UI/parallax-forest-middle-trees.png" type="Texture" id=4]
-[ext_resource path="res://UI/parallax-forest-lights.png" type="Texture" id=5]
-[ext_resource path="res://UI/parallax-forest-back-trees.png" type="Texture" id=6]
+[ext_resource path="res://Assets/parallax-forest-back-trees.png" type="Texture" id=2]
+[ext_resource path="res://Assets/parallax-forest-front-trees.png" type="Texture" id=3]
+[ext_resource path="res://Assets/parallax-forest-middle-trees.png" type="Texture" id=4]
+[ext_resource path="res://Assets/parallax-forest-lights.png" type="Texture" id=5]
+[ext_resource path="res://UI/OrangeWoods.gd" type="Script" id=6]
 [ext_resource path="res://UI/BackTrees.gd" type="Script" id=7]
 [ext_resource path="res://UI/Light.gd" type="Script" id=8]
 [ext_resource path="res://UI/FrontTrees.gd" type="Script" id=9]
-[ext_resource path="res://UI/button.png" type="Texture" id=10]
-[ext_resource path="res://UI/Dosen Killer.otf" type="DynamicFontData" id=11]
-[ext_resource path="res://UI/Captain Blackjack.ttf" type="DynamicFontData" id=12]
+[ext_resource path="res://Assets/button.png" type="Texture" id=10]
+[ext_resource path="res://Assets/Dosen Killer.otf" type="DynamicFontData" id=11]
+[ext_resource path="res://Assets/Captain Blackjack.ttf" type="DynamicFontData" id=12]
 
-[sub_resource type="DynamicFont" id=2]
+[sub_resource type="DynamicFont" id=3]
 size = 100
-outline_size = 8
+outline_size = 9
 font_data = ExtResource( 12 )
 
 [sub_resource type="DynamicFont" id=1]
-size = 18
+size = 34
 outline_size = 2
-extra_spacing_char = 2
+extra_spacing_char = 4
+font_data = ExtResource( 11 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 36
+outline_size = 2
+extra_spacing_char = 3
 font_data = ExtResource( 11 )
 
 [node name="MainMenu" type="Control"]
