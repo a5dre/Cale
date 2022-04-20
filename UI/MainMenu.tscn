@@ -162,8 +162,15 @@ motion_mirroring = Vector2( 1025.4, 0 )
 script = ExtResource( 8 )
 
 [node name="Light" type="Sprite" parent="MainBackground/Light"]
+scale = Vector2( 3.77, 3.77 )
+texture = ExtResource( 5 )
+centered = false
 
-[node name="Sprite" type="Sprite" parent="ParallaxBackground/FrontTrees"]
+[node name="FrontTrees" type="ParallaxLayer" parent="MainBackground"]
+motion_mirroring = Vector2( 1025.4, 0 )
+script = ExtResource( 9 )
+
+[node name="FrontTrees" type="Sprite" parent="MainBackground/FrontTrees"]
 scale = Vector2( 3.77, 3.77 )
 texture = ExtResource( 4 )
 centered = false
