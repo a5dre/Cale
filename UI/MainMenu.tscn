@@ -136,11 +136,11 @@ __meta__ = {
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
-[node name="BackWoods" type="ParallaxLayer" parent="ParallaxBackground"]
+[node name="BackTrees2" type="ParallaxLayer" parent="ParallaxBackground"]
 motion_mirroring = Vector2( 1025.4, 0 )
 script = ExtResource( 3 )
 
-[node name="Sprite" type="Sprite" parent="ParallaxBackground/BackWoods"]
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/BackTrees2"]
 scale = Vector2( 3.77, 3.77 )
 texture = ExtResource( 6 )
 centered = false
