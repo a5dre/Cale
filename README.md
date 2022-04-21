@@ -1,20 +1,23 @@
-# 2D-Platformer-Character
+# Crunch o'Clock
+MSCH-C220 Game Jam, April 2022
 
-A somewhat-generic character (including animations and state machine) appropriate for a 2D platformer built in Godot. Includes 2 levels.Parallax background.
+## Theme : Time Crunch
+We used this theme to create a 2D
+
+## Game Play
+Objective
+Game-play instructions
+
+## Impediments
+Struggles or surprises you encountered during the development of the game
 
 ## Implementation
-Built using Godot 3.2.3
-
-The player sprite is adaptated from [MV Platformer Male](https://opengameart.org/content/mv-platformer-male-32x64) by MoikMellah. CC0 Licensed.
+Features
+Assets, or resources used
 
 ## References
-https://opengameart.org/content/parallax-halloween-2d-game-backgrounds
 
 ## Future Development
-None
 
-## Extra Credit
-None
-
-## Created by 
-Lindsay Osten
+# Created by: CALE
+List of group members (and contributions)
