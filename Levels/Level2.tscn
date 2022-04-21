@@ -244,17 +244,18 @@ drag_margin_bottom = 0.1
 script = ExtResource( 4 )
 
 [node name="Coins" type="Node2D" parent="."]
-position = Vector2( 1007, 189 )
+position = Vector2( 1768, 396 )
 
 [node name="Coin" parent="Coins" instance=ExtResource( 13 )]
-position = Vector2( 2333, 863 )
+position = Vector2( -1321, 264 )
 
 [node name="Coin2" parent="Coins" instance=ExtResource( 13 )]
 
 [node name="Coin3" parent="Coins" instance=ExtResource( 13 )]
-position = Vector2( 1707, 988 )
+position = Vector2( 732, 151 )
 
 [node name="Coin4" parent="Coins" instance=ExtResource( 13 )]
+position = Vector2( 512, 457 )
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource( 9 )
