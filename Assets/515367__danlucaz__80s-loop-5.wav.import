@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/515367__danlucaz__80s-loop-5.wav-b6f377b804b5181eaabe87962f2181e6.sample"
+
+[deps]
+
+source_file="res://Assets/515367__danlucaz__80s-loop-5.wav"
+dest_files=[ "res://.import/515367__danlucaz__80s-loop-5.wav-b6f377b804b5181eaabe87962f2181e6.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
