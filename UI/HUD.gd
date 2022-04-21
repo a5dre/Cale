@@ -5,4 +5,4 @@ func _ready():
 	update_score()
 	
 func update_score():
-	$Score.text = "Score: " + str(Global.save_data["score"])
+	$Score.text = "  " + str(Global.save_data["  "])

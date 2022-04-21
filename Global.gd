@@ -1,9 +1,13 @@
 extends Node
 
+var time = 0
+
+signal time_changed
+
 var save_data = {
 	"level": 1
-	,"score": 0
-	,"timer": 0 
+	,"  ": "  "
+	,"timer": 0  
 }
 
 var levels = [
@@ -16,6 +20,8 @@ var key = "C220 is the best!"
 
 func _ready():
 	pause_mode = Node.PAUSE_MODE_PROCESS
+
+
 
 func _unhandled_input(_event):
 	if Input.is_action_just_pressed("quit"):
@@ -100,6 +106,8 @@ func load_game():
 	var _scene = get_tree().change_scene_to(levels[save_data["level"]-1 ])	 
 	call_deferred("load_data")
 	
-
+func change_time():
+	time += 1
+	emit_signal("time_changed")
 	
 	

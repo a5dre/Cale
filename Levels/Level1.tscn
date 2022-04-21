@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [gd_scene load_steps=20 format=2]
+=======
+[gd_scene load_steps=31 format=2]
+>>>>>>> Stashed changes
 
 [ext_resource path="res://Assets/roadTexture_67.png" type="Texture" id=1]
 [ext_resource path="res://Assets/roadTexture_58.png" type="Texture" id=2]
@@ -22,8 +26,19 @@
 [ext_resource path="res://Coins/Coins.gd" type="Script" id=14]
 [ext_resource path="res://UI/UI.tscn" type="PackedScene" id=15]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [ext_resource path="res://Assets/roadTexture_73.png" type="Texture" id=16]
 =======
+>>>>>>> Stashed changes
+=======
+[ext_resource path="res://Assets/4.png" type="Texture" id=16]
+[ext_resource path="res://Assets/5.png" type="Texture" id=17]
+[ext_resource path="res://Assets/Sky image.jpeg" type="Texture" id=18]
+[ext_resource path="res://HUD/HUD.gd" type="Script" id=19]
+[ext_resource path="res://Assets/3.png" type="Texture" id=20]
+[ext_resource path="res://Assets/7.png" type="Texture" id=21]
+[ext_resource path="res://Assets/6.png" type="Texture" id=22]
+[ext_resource path="res://Assets/tree_thin_NE.png" type="Texture" id=23]
 >>>>>>> Stashed changes
 
 [sub_resource type="NavigationPolygon" id=10]
@@ -318,4 +333,20 @@ tile_data = PoolIntArray( 196608, 3, 0, 196665, 3, 0, 262144, 3, 0, 262201, 3, 0
 format = 1
 >>>>>>> Stashed changes
 
+[node name="HUD" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 19 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Time" type="Label" parent="HUD"]
+margin_right = 40.0
+margin_bottom = 14.0
+text = "Time:"
+
+[node name="Timer" type="Timer" parent="HUD"]
+
 [connection signal="body_entered" from="Door" to="Door" method="_on_Door_body_entered"]
+[connection signal="timeout" from="HUD/Timer" to="HUD" method="_on_Timer_timeout"]
