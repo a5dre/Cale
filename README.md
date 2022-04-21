@@ -51,7 +51,14 @@ End Game Menu,
 Github
 
 Lindsay Osten
+All sprites,
+updated Tiles,
+Completed basic programming
 
 Caleb Perkins
+Changes with Timer,
+Level Backgrounds
 
 Endia Terrell
+Sound Effects,
+Music
